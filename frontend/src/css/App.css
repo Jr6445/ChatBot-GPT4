@@ -1,7 +1,7 @@
 :root {
-    --main-colour: #00572f94;
+    --main-colour: #1c4a6d;
     --secondary-colour: #e0e1dd;
-    --third-colour: #00572f;
+    --third-colour: #1c4a6d;
 }
   
 body {
@@ -18,7 +18,7 @@ body {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /* background-color: #212121; */
-    background-image: url('https://cdn.discordapp.com/attachments/943505631325868119/1297379517794615376/the-ball-sport-football-russia-wallpaper-preview_2.png?ex=6715b655&is=671464d5&hm=08ad52437d1d4e79244095da8a63c62548b3c4e65b80b39bc37574dbabe8db23&');
+    background-image: url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

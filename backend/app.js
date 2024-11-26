@@ -8,7 +8,7 @@ const dotenv = require("dotenv");
 dotenv.config({ path: "../.env" });
 
 const app = express();
-const BACKEND_PORT = 3000;//process.env.EXPRESS_PORT; // This is the port that the backend server will run on
+const BACKEND_PORT = 3001;//process.env.EXPRESS_PORT; // This is the port that the backend server will run on
 const FRONTEND_PORT = 5173;//process.env.VITE_PORT; // This is the port that the frontend server will run on
 
 app.use(bodyParser.json());

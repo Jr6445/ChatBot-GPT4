@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 dotenv.config({ path: "../.env" });
 // Openai configuration information
 const configuration = new Configuration({
-  apiKey: ''//process.env.API_KEY,
+  apiKey: process.env.API_KEY//process.env.API_KEY,
 });
 const openai = new OpenAIApi(configuration);
 const gptModel = process.env.MODEL; // This is the model that is used for the chatbot eg. gpt-4, gpt-3.5, gpt-3.5-turbo, etc
